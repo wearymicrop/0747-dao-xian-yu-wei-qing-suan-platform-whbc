@@ -1,0 +1,31 @@
+@media print {
+  .rail,
+  .toolbar,
+  .statusbar,
+  button,
+  input,
+  select {
+    display: none !important;
+  }
+  .harbor,
+  .grid {
+    display: block;
+  }
+  body,
+  .topbar {
+    background: white;
+  }
+  .topbar {
+    position: static;
+  }
+  .panel {
+    break-inside: avoid;
+    margin-bottom: 10px;
+  }
+  .ticket {
+    print-color-adjust: exact;
+  }
+  .ledger {
+    max-height: none;
+  }
+}
